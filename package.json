@@ -1,0 +1,16 @@
+{
+  "name": "actions-get-ref-detail",
+  "version": "1.0.0",
+  "description": "Gets the current ref type and name (*without* the refs/xxxx/ prefix).",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "ncc build index.js"
+  },
+  "keywords": [],
+  "author": "Mark Ashley Bell",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.2.0",
+    "@actions/github": "^2.0.0"
+  }
+}
