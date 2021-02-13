@@ -7,6 +7,10 @@
     "build": "ncc build index.js"
   },
   "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markashleybell/actions-get-ref-detail.git"
+  },
   "author": "Mark Ashley Bell",
   "license": "MIT",
   "dependencies": {
