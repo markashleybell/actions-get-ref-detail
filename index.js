@@ -22,9 +22,6 @@ async function run() {
             console.log('Type: ' + refType);
             console.log('Name: ' + refName);
 
-            core.exportVariable("GITHUB_REF_TYPE", refType);
-            core.exportVariable("GITHUB_REF_NAME", refName);
-            
             core.setOutput("ref_type", refType);
             core.setOutput("ref_name", refName);
         } else {
