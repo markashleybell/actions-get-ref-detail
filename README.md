@@ -1,3 +1,7 @@
+# This repository is no longer maintained!
+
+This action is no longer necessary; you can now get everything it provided directly from the [GitHub Context](https://docs.github.com/en/actions/learn-github-actions/contexts#github-context) within Actions (`github.ref_type` and `github.ref_name`).
+
 # Get Ref Detail Action
 
 Gets the current ref type and name.
